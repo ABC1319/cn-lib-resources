@@ -32,6 +32,8 @@ def main():
 
     libraries = []
     for path in sorted(glob.glob(os.path.join(LIB_DIR, "*.json"))):
+        if os.path.basename(path).startswith("_"):
+            continue  # 跳过 _template.json 等模板/示例文件
         libraries.append(strip_notes(load_json(path)))
 
     data = {"resources": resources, "libraries": libraries}

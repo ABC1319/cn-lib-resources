@@ -1,0 +1,460 @@
+{
+ "_说明": "浙江图书馆，2026-07-12 CDP实地采集。55个数字资源来自digitalResource/pageList接口。access_method暂留空(列表接口无馆内/馆外字段，未核实,不臆断)。",
+ "id": "zhejiang",
+ "name": "浙江图书馆",
+ "level": "省级公共图书馆",
+ "region": "浙江省",
+ "verified": true,
+ "official_site": "https://www.zjlib.cn",
+ "digital_resource_url": "https://www.zjlib.cn/resource/digital",
+ "registration": {
+  "online": "yes",
+  "eligibility": "支付宝实名认证用户可线上注册；无支付宝实名账号需携带有效证件线下办理",
+  "cost": "支付宝信用注册(免押金)",
+  "how": "手机支付宝扫码进行“信用注册”实名办证；或线下到馆办理",
+  "tutorial_url": "https://www.zjlib.cn/register",
+  "notes": "部分资源为馆内镜像(内网IP地址)，是否支持远程访问未核实。"
+ },
+ "resources": [
+  {
+   "canonical_id": "r-2eb94610",
+   "raw_name": "华艺《台湾学术文献数据库》",
+   "access_url": "https://www.airitilibrary.cn/",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-c2a360b5",
+   "raw_name": "爱迪科森网上报告厅视频学术报告数据库(包库)",
+   "access_url": "http://wb.bjadks.com/",
+   "scope": "包库",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-c2a360b5",
+   "raw_name": "爱迪科森网上报告厅视频学术报告数据库(镜像)",
+   "access_url": "http://10.18.17.189/",
+   "scope": "镜像",
+   "access_method": "",
+   "notes": "访问地址为内网IP(通常校内/馆内网络可达，是否支持远程代理未核实)"
+  },
+  {
+   "canonical_id": "r-2692d015",
+   "raw_name": "博看网",
+   "access_url": "https://zq.bookan.com.cn/?t=index&id=22833",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-89f87391",
+   "raw_name": "超星期刊（试用）",
+   "access_url": "https://qikan.chaoxing.com/",
+   "scope": "试用",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-417792d0",
+   "raw_name": "超星学术视频",
+   "access_url": "https://ssvideo.chaoxing.com/",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-71227cb1",
+   "raw_name": "读秀学术搜索",
+   "access_url": "http://www.duxiu.com/",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-012b1d6d",
+   "raw_name": "方正精品图片资源库",
+   "access_url": "http://10.18.17.142/Usp/apabi_usp/?pid=picture.index&cult=CN",
+   "scope": "",
+   "access_method": "",
+   "notes": "访问地址为内网IP(通常校内/馆内网络可达，是否支持远程代理未核实)"
+  },
+  {
+   "canonical_id": "r-d2d80c3d",
+   "raw_name": "方正数字报纸全文库",
+   "access_url": "https://apabi.com/zjlib/?pid=newspaper.index&cult=CN",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-015a2774",
+   "raw_name": "国家哲学社会科学学术期刊数据库(NSSD)",
+   "access_url": "http://www.nssd.cn/",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-53e213dd",
+   "raw_name": "国务院发展研究中心信息网（镜像）",
+   "access_url": "http://10.18.17.145:8080/",
+   "scope": "镜像",
+   "access_method": "",
+   "notes": "访问地址为内网IP(通常校内/馆内网络可达，是否支持远程代理未核实)"
+  },
+  {
+   "canonical_id": "r-70e2aba6",
+   "raw_name": "汉斯出版社中文期刊资源(Hans Publishers）",
+   "access_url": "https://www.hanspub.org/",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-0c8800d5",
+   "raw_name": "瀚堂典籍数据库",
+   "access_url": "http://www.hytung.cn/",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-b7425b9f",
+   "raw_name": "西湖龙井茶文化资源库",
+   "access_url": "http://61.175.198.143:9000/lj/",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-98a45c29",
+   "raw_name": "EPS数据平台（请点击IP登录）",
+   "access_url": "http://olap.epsnet.com.cn/",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-8c19ff3a",
+   "raw_name": "看展览数字平台",
+   "access_url": "http://10.18.17.136:8013/",
+   "scope": "",
+   "access_method": "",
+   "notes": "访问地址为内网IP(通常校内/馆内网络可达，是否支持远程代理未核实)"
+  },
+  {
+   "canonical_id": "r-2010bd59",
+   "raw_name": "民国图书数据库",
+   "access_url": "http://mg.nlcpress.com/library/publish/default/IndexBook.jsp",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-c77db767",
+   "raw_name": "皮书数据库",
+   "access_url": "http://www.pishu.com.cn/",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-7164844c",
+   "raw_name": "少儿数字绘本数据库（试用）",
+   "access_url": "https://shaoerhuiben.chaoxing.com/",
+   "scope": "试用",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-70ae7c04",
+   "raw_name": "书同文典籍数据库",
+   "access_url": "http://guji.unihan.com/",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-350db842",
+   "raw_name": "外刊资源服务系统",
+   "access_url": "http://fpd.juhe.com.cn",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-f2c9c6c7",
+   "raw_name": "全国报刊索引（含晚清、民国时期期刊，近代图书，近代报刊）（包库）",
+   "access_url": "https://www.cnbksy.com/v2/search/advance",
+   "scope": "包库",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-f3c553e1",
+   "raw_name": "维普中文科技期刊",
+   "access_url": "http://10.18.17.133/",
+   "scope": "",
+   "access_method": "",
+   "notes": "访问地址为内网IP(通常校内/馆内网络可达，是否支持远程代理未核实)"
+  },
+  {
+   "canonical_id": "r-192150e5",
+   "raw_name": "新语听书",
+   "access_url": "http://www.xinyulib.com/",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-80948dcf",
+   "raw_name": "易阅通（试用版）",
+   "access_url": "https://www.cnpereading.com",
+   "scope": "试用",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-d1c397bc",
+   "raw_name": "意匠生辉——浙江传统美术与技艺多媒体资源库",
+   "access_url": "http://10.18.23.59:9000/",
+   "scope": "",
+   "access_method": "",
+   "notes": "访问地址为内网IP(通常校内/馆内网络可达，是否支持远程代理未核实)"
+  },
+  {
+   "canonical_id": "r-39902447",
+   "raw_name": "云图数字有声图书馆",
+   "access_url": "http://10.18.17.147:8033/",
+   "scope": "",
+   "access_method": "",
+   "notes": "访问地址为内网IP(通常校内/馆内网络可达，是否支持远程代理未核实)"
+  },
+  {
+   "canonical_id": "r-5cd07892",
+   "raw_name": "浙江地方戏曲多媒体资源库(一期)",
+   "access_url": "http://61.175.198.143:9000/xiqu/",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-256893ef",
+   "raw_name": "中宏形势分析支持系统",
+   "access_url": "http://mct.macrochina.com.cn/",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-8291f178",
+   "raw_name": "中国资讯行·INFOBANK数据库（财经类）（包库）",
+   "access_url": "http://www.bjinfobank.com/",
+   "scope": "包库",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-48410acc",
+   "raw_name": "中国资讯行·搜数网（统计资料类）（包库）",
+   "access_url": "http://www.soshoo.com/",
+   "scope": "包库",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-1cf232c2",
+   "raw_name": "万方中小学微课镜像系统",
+   "access_url": "http://10.18.17.121:8089/",
+   "scope": "镜像",
+   "access_method": "",
+   "notes": "访问地址为内网IP(通常校内/馆内网络可达，是否支持远程代理未核实)"
+  },
+  {
+   "canonical_id": "r-3c3cc571",
+   "raw_name": "万方数据库本地镜像（含学位、会议论文）",
+   "access_url": "http://10.18.17.131:8088/",
+   "scope": "镜像",
+   "access_method": "",
+   "notes": "访问地址为内网IP(通常校内/馆内网络可达，是否支持远程代理未核实)"
+  },
+  {
+   "canonical_id": "r-f3c553e1",
+   "raw_name": "维普中文科技期刊（包库）",
+   "access_url": "https://qikan.cqvip.com/",
+   "scope": "包库",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-885cdc12",
+   "raw_name": "书递——中文电子图书数字出版平台（试用）",
+   "access_url": "https://zjst.elib.link/",
+   "scope": "试用",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-3d442917",
+   "raw_name": "民国报纸细颗粒度标签标引",
+   "access_url": "https://meta.librarydata.cn/?lib_num=1100",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-db82c7a7",
+   "raw_name": "中科VIPExam考试学习数据库",
+   "access_url": "http://www.vipexam.org/",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-fb08bcc7",
+   "raw_name": "中华医学会数字化期刊",
+   "access_url": "http://10.18.17.99/",
+   "scope": "",
+   "access_method": "",
+   "notes": "访问地址为内网IP(通常校内/馆内网络可达，是否支持远程代理未核实)"
+  },
+  {
+   "canonical_id": "r-823a0a05",
+   "raw_name": "中华连环画数字阅读馆",
+   "access_url": "http://61.175.198.150:8023",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-b8c1541f",
+   "raw_name": "晨星中华诗词数据库",
+   "access_url": "https://zhsckpc.cxcwwlkj.com/?tokenAuth=Mzk3OTI1MjY1Nzg1Mzc2NzY5Y3hjdzIwMjAy",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-ad25843c",
+   "raw_name": "中华再造善本数据库",
+   "access_url": "http://z.nlcpress.com/",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-a85a62c0",
+   "raw_name": "中宏领导决策支持系统",
+   "access_url": "http://gov1.macrochina.com.cn/skins/4/gov/index.shtml",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-9917edfb",
+   "raw_name": "工匠技能学习平台（试用）",
+   "access_url": "https://gj.bjadks.com/",
+   "scope": "试用",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-6138bab1",
+   "raw_name": "中国资讯行·INFOBANK数据库（财经类）（本地镜像）",
+   "access_url": "http://10.18.17.182:8080/newinfobank/",
+   "scope": "镜像",
+   "access_method": "",
+   "notes": "访问地址为内网IP(通常校内/馆内网络可达，是否支持远程代理未核实)"
+  },
+  {
+   "canonical_id": "r-7aaf4116",
+   "raw_name": "雅昌艺术教育讲堂数据库",
+   "access_url": "https://www.artbase.cn/",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-1d8d0bb2",
+   "raw_name": "瀚堂近代报刊",
+   "access_url": "https://www.neohytung.com/",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-2d8f0362",
+   "raw_name": "（国研网）经济/管理案例库",
+   "access_url": "http://10.18.17.145:8090/",
+   "scope": "",
+   "access_method": "",
+   "notes": "访问地址为内网IP(通常校内/馆内网络可达，是否支持远程代理未核实)"
+  },
+  {
+   "canonical_id": "r-126226a9",
+   "raw_name": "方正企鹅英文电子书",
+   "access_url": "http://10.18.17.142/Usp/apabi_usp/?pid=usp.search&wd=&cult=CN&db=dlib&dt=EBook&url=book.advsearch&lib=2&ct=CAT_ZTF",
+   "scope": "",
+   "access_method": "",
+   "notes": "访问地址为内网IP(通常校内/馆内网络可达，是否支持远程代理未核实)"
+  },
+  {
+   "canonical_id": "r-4d34689c",
+   "raw_name": "畅想之星电子书",
+   "access_url": "http://10.18.17.125:5000/",
+   "scope": "",
+   "access_method": "",
+   "notes": "访问地址为内网IP(通常校内/馆内网络可达，是否支持远程代理未核实)"
+  },
+  {
+   "canonical_id": "r-c71b4629",
+   "raw_name": "知网数据库总站本地镜像（含会议、博硕论文）",
+   "access_url": "http://10.18.17.173/kns55/",
+   "scope": "镜像",
+   "access_method": "",
+   "notes": "访问地址为内网IP(通常校内/馆内网络可达，是否支持远程代理未核实)"
+  },
+  {
+   "canonical_id": "r-9e8acfe7",
+   "raw_name": "“知识视界”红色经典专题库（试用）",
+   "access_url": "https://redlib.libvideo.com/?lib=ccc3744a99_b4478b5abe572bce90235",
+   "scope": "试用",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-0c87cce8",
+   "raw_name": "“知识视界”科学教育视频资源库",
+   "access_url": "https://www.libvideo.cn",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-57163356",
+   "raw_name": "Analyst, The.",
+   "access_url": "http://pubs.rsc.org/en/journals/journalissues/an#!issueid=an147001&type=current&issnprint=0003-2654",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-7221a653",
+   "raw_name": "Artlib世界艺术鉴赏库",
+   "access_url": "http://www.artlib.cn/",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-690da980",
+   "raw_name": "Environmental Science: Processes & Impacts",
+   "access_url": "http://pubs.rsc.org/en/journals/journalissues/em",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  }
+ ]
+}

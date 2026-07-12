@@ -1,0 +1,1596 @@
+{
+ "_说明": "上海图书馆，2026-07-12 CDP实地采集。197个数据库来自数据库导航API；access_method来自门户实测的馆内/馆外/OA标签(馆外浏览器视角)。",
+ "id": "shanghai",
+ "name": "上海图书馆",
+ "level": "省级公共图书馆(直辖市)",
+ "region": "上海市",
+ "verified": true,
+ "official_site": "https://www.library.sh.cn",
+ "digital_resource_url": "https://z.library.sh.cn/next/resource/databases/navigation",
+ "registration": {
+  "online": "yes",
+  "eligibility": "线上可办阅览证/普通外借证；具体申办条件见办证须知",
+  "cost": "阅览证免费；外借证需押金，上海市常住居民信用良好可诚信免押金",
+  "how": "线上：上海图书馆门户网站或“上海图书馆”微信小程序办证；线下：到馆办证处凭有效身份证件",
+  "tutorial_url": "https://www.library.sh.cn/guide/banzheng",
+  "notes": "共197个数据库：145个馆外可访问(凭证)、24个仅馆内、17个OA公网免费。"
+ },
+ "resources": [
+  {
+   "canonical_id": "r-4a35c6f4",
+   "raw_name": "ACS Journals Web Edition and legacy Archive/美国化学学会期刊",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1129",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-c7a4b84c",
+   "raw_name": "AIAA美国航空航天学会会议录",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1050",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-d599bbc7",
+   "raw_name": "AIP Publications",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/2181",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-696ddcc5",
+   "raw_name": "爱思唯尔双语智读",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/2217",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-e9561072",
+   "raw_name": "APS全文电子期刊数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/14416",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-f381a597",
+   "raw_name": "ASME期刊数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/14415",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-3b4e42b9",
+   "raw_name": "ASTM标准全文数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1052",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-8624e187",
+   "raw_name": "北京记忆【开放获取】",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/15834",
+   "scope": "",
+   "access_method": "公网开放获取(OA免费库)",
+   "notes": "官方标注开放获取"
+  },
+  {
+   "canonical_id": "r-c285fbe1",
+   "raw_name": "博看畅销期刊数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1097",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-6d9cffd0",
+   "raw_name": "Books in Print/在版书目(GBIP)",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1149",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-8bcacf4f",
+   "raw_name": "Bridgeman艺术图书馆",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1167",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-7c2db253",
+   "raw_name": "Cambridge Journals Online/剑桥电子期刊数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1053",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-0dfc92f9",
+   "raw_name": "CAS IP Finder",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1184",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-88662754",
+   "raw_name": "CELL电子期刊",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1268",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-5a518a41",
+   "raw_name": "超星/汇雅电子书",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1142",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-417792d0",
+   "raw_name": "超星学术视频",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1095",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-3024d677",
+   "raw_name": "CNKI中国知网 国际会议论文全文数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/14526",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-17d48b81",
+   "raw_name": "CNKI中国知网 学术期刊库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1108",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-e244c0f0",
+   "raw_name": "CNKI中国知网 中国博士学位论文全文数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1209",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-54863349",
+   "raw_name": "CNKI中国知网 中国经济社会大数据研究平台",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1109",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-a5ee7467",
+   "raw_name": "CNKI中国知网 中国科技项目创新成果鉴定意见数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1207",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-50c158fc",
+   "raw_name": "CNKI中国知网 中国年鉴网络出版总库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1206",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-0b540998",
+   "raw_name": "CNKI中国知网 中国图书全文数据库（心可书馆）",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/23364",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-f810f8d8",
+   "raw_name": "CNKI中国知网 中国学术辑刊全文数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/16097",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-5d931c41",
+   "raw_name": "CNKI中国知网 中国优秀硕士学位论文全文数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1208",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-a0b97bcf",
+   "raw_name": "CNKI中国知网 中国重要会议论文全文数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1210",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-7375e6c6",
+   "raw_name": "CNKI中国知网 中国专利全文数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/23365",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-ed8cd8be",
+   "raw_name": "CPCI(会议录引文索引)",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1054",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-e239b055",
+   "raw_name": "De Gruyter电子书",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1130",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-e76216ca",
+   "raw_name": "典津：全球汉籍影像开放集成系统",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/24165",
+   "scope": "",
+   "access_method": "公网开放获取(OA免费库)",
+   "notes": "官方标注开放获取"
+  },
+  {
+   "canonical_id": "r-4977b883",
+   "raw_name": "东京审判文献数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1180",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-d9d6ca45",
+   "raw_name": "读秀知识库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1096",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-1fecf028",
+   "raw_name": "EBSCO Flipster电子杂志平台",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/25008",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-df20b74d",
+   "raw_name": "EBSCO/Academic Search Ultimate (ASU) 综合学科参考文献大全－旗舰版",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/2199",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-7a6c0425",
+   "raw_name": "EBSCO/Agricola农业文摘",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/7720",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-d8c57ad6",
+   "raw_name": "EBSCO/Art & Architecture Source",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1058",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-d5a742e8",
+   "raw_name": "EBSCO/Business Searching Interface",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/23239",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-36f00e27",
+   "raw_name": "EBSCO/Business Source Ultimate （BSU） 商管财经类参考文献大全－旗舰版",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/2200",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-178c4d92",
+   "raw_name": "EBSCO/e-book collection电子图书",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1059",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-f5bd31a8",
+   "raw_name": "EBSCO/Educational Resources Information Center",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1060",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-25e9f837",
+   "raw_name": "EBSCO/European Views of the Americas: 1493 to 1750",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1131",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-e117fc94",
+   "raw_name": "EBSCO/GreenFILE",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1061",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-e575ae8e",
+   "raw_name": "EBSCO/Library Information Science and Technology Abstracts",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1062",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-1bff1894",
+   "raw_name": "EBSCO/MEDLINE",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1127",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-8ac18d3d",
+   "raw_name": "EBSCO/OpenDissertations",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/2201",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-1eb55f92",
+   "raw_name": "EBSCO/Professional Development Collection",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1064",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-8b1c42b1",
+   "raw_name": "EBSCO/SportDiscus with Full Text数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1128",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-10336886",
+   "raw_name": "EBSCO/Teacher Reference Center",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1066",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-8074686f",
+   "raw_name": "EBSCO资源总链接",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/11393",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-be077ce4",
+   "raw_name": "EduScholarships Index全球科研机构奖学金检索数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1150",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-d262b31e",
+   "raw_name": "Ei Compendex 工程索引",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1067",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-a64c6573",
+   "raw_name": "Elsevier/ScienceDirect",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1068",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-5584d629",
+   "raw_name": "Emerald全文期刊库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1070",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-f516bd35",
+   "raw_name": "Encyclopedia Britannica Online/大英百科全书",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1071",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-7d349195",
+   "raw_name": "Food and Drink in History/历史上的饮食文化",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/20120",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-0a3ca7bc",
+   "raw_name": "Foreign Office, Consulate and Legation Files for China 1830-1939/英国外交部、领事馆与公使档案：中国（1830-1939年）",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/25213",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-87b34de7",
+   "raw_name": "Foreign Office Files for China 1919-1980/英国外交部解密档案：中国1919-1980年",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/19016",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-86415caf",
+   "raw_name": "China and the Modern World（Gale）原始档案",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/24737",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-6c87b8b0",
+   "raw_name": "GALE DATABASE/Business Insights：Global",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1123",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-5d98a97f",
+   "raw_name": "GALE DATABASE/The Twayne Authors Series",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1137",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-935c073c",
+   "raw_name": "Gale/Eighteenth Century Collection Online（十八世纪作品在线）",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1121",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-a54b8740",
+   "raw_name": "Gale珍稀原始典藏档案",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/6913",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-0e6f3280",
+   "raw_name": "GPD尚唯产品样本数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1120",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-fee877a0",
+   "raw_name": "国别区域与全球治理数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1171",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-09985b1a",
+   "raw_name": "国家法规数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1193",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-f87afce4",
+   "raw_name": "国家建筑标准设计图集电子书库（国标电子书库）",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1192",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-8c7257e8",
+   "raw_name": "国家哲学社会科学文献中心免费资源",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/17120",
+   "scope": "",
+   "access_method": "公网开放获取(OA免费库)",
+   "notes": "官方标注开放获取"
+  },
+  {
+   "canonical_id": "r-fc310367",
+   "raw_name": "国际OA期刊推荐名录(OARL)",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/24058",
+   "scope": "",
+   "access_method": "公网开放获取(OA免费库)",
+   "notes": "官方标注开放获取"
+  },
+  {
+   "canonical_id": "r-dc4fd032",
+   "raw_name": "国研网（教育版）",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1099",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-a1feb548",
+   "raw_name": "国研网世界经济数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/22385",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-f3f35a78",
+   "raw_name": "《瀚堂典藏》古籍库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1211",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-78d885db",
+   "raw_name": "华东地区外国和港台科技期刊预订联合目录数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1195",
+   "scope": "",
+   "access_method": "公网开放获取(OA免费库)",
+   "notes": "官方标注开放获取"
+  },
+  {
+   "canonical_id": "r-46252f57",
+   "raw_name": "华语老电影知识库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/13058",
+   "scope": "",
+   "access_method": "公网开放获取(OA免费库)",
+   "notes": "官方标注开放获取"
+  },
+  {
+   "canonical_id": "r-c81c18e7",
+   "raw_name": "IEEE All-Society Periodicals Package (ASPP)",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1126",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-f9f5d1e1",
+   "raw_name": "IEEE Xplore/IEEE会议录(POPALL)",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1074",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-2fbdf665",
+   "raw_name": "IGI电子书",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1187",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-825e32e5",
+   "raw_name": "IHS标准数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/15792",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-5b7e6987",
+   "raw_name": "INCOPAT专利服务平台",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1152",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-1d69fdd8",
+   "raw_name": "IOP/英国皇家物理学会电子书",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1072",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-35b3c0fe",
+   "raw_name": "IOP/英国皇家物理学会期刊数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1073",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-410095e1",
+   "raw_name": "ISI/EMIS新兴市场信息服务",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/23517",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-2f417026",
+   "raw_name": "“i图情”知识服务平台",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/23806",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-7bd9fa00",
+   "raw_name": "京东读书专业版",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/15914",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-0a8bb3d3",
+   "raw_name": "九星时代报刊在线阅读系统",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/18829",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-b33be8a9",
+   "raw_name": "Journal Citation Reports（JCR）",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1055",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-dc618b83",
+   "raw_name": "JSTOR/西文过刊期刊数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1125",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-8e3b521e",
+   "raw_name": "抗日战争与近代中日关系文献数据平台",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/17119",
+   "scope": "",
+   "access_method": "公网开放获取(OA免费库)",
+   "notes": "官方标注开放获取"
+  },
+  {
+   "canonical_id": "r-fcadf54d",
+   "raw_name": "科学文库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/21057",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-5a7d7e75",
+   "raw_name": "库客（KUKE）数字音乐图书馆",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1101",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-56e15cb1",
+   "raw_name": "律商网（Lexis China）",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/11932",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-153d3edd",
+   "raw_name": "美国科学院院报（PNAS）",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/2202",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-d630630b",
+   "raw_name": "美国政府研究报告数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1158",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-9d77db85",
+   "raw_name": "民国时期文献资源库【开放获取】",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/15832",
+   "scope": "",
+   "access_method": "公网开放获取(OA免费库)",
+   "notes": "官方标注开放获取"
+  },
+  {
+   "canonical_id": "r-9945d93c",
+   "raw_name": "NSTL外文回溯期刊全文数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1077",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-a95374ed",
+   "raw_name": "NSTL外文现刊全文数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1078",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-d0c30078",
+   "raw_name": "OCLC WorldCat",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1141",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-92db589f",
+   "raw_name": "OECD iLibrary经合组织在线图书馆",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/4768",
+   "scope": "",
+   "access_method": "公网开放获取(OA免费库)",
+   "notes": "官方标注开放获取"
+  },
+  {
+   "canonical_id": "r-09ad4369",
+   "raw_name": "OpenSign公益性学术资源服务平台",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/24039",
+   "scope": "",
+   "access_method": "公网开放获取(OA免费库)",
+   "notes": "官方标注开放获取"
+  },
+  {
+   "canonical_id": "r-e0309283",
+   "raw_name": "OverDrive/赛阅少儿数字图书馆",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1156",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-b23ad513",
+   "raw_name": "Oxford Journals/牛津电子期刊数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1081",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-2bde3c1b",
+   "raw_name": "Oxford scholarship online/牛津在线学术专著数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1080",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-eca56473",
+   "raw_name": "Palgrave Connect电子书",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1157",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-c77db767",
+   "raw_name": "皮书数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1170",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-e3538b96",
+   "raw_name": "Project MUSE/MUSE电子期刊数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1082",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-33aa53db",
+   "raw_name": "ProQuest ABI/INFORM Collection",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1083",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-426fe364",
+   "raw_name": "PQDT Global全球博硕士论文全文数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/19218",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-31b0ace0",
+   "raw_name": "ProQuest Ebook Central电子书",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1133",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-c254f1c0",
+   "raw_name": "ProQuest/Advanced Technologies & Computer Science Collection",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1119",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-a3754320",
+   "raw_name": "ProQuest/Agricultural & Environmental Science Database (农学与环境学期刊全文数据库）",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1118",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-b42193b5",
+   "raw_name": "ProQuest/Business Market Research Collection‎",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1117",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-98cb98d5",
+   "raw_name": "ProQuest/EconLit",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/5461",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-f78a5d85",
+   "raw_name": "ProQuest/Historical Newspapers: Chinese Newspapers Collection（CHNP）",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1113",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-05ce961f",
+   "raw_name": "ProQuest/Library and Information Science Abstracts",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1115",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-3867b9df",
+   "raw_name": "ProQuest/Materials Science & Engineering Database",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1114",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-e0307d48",
+   "raw_name": "ProQuest/The Women's Wear Daily Archive（WWD）",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1135",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-1c84fe87",
+   "raw_name": "ProQuest学位论文全文检索平台/ProQuest博硕士论文 (PQDD)",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1111",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-7aa6400d",
+   "raw_name": "PubScholar公益学术平台",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/17092",
+   "scope": "",
+   "access_method": "公网开放获取(OA免费库)",
+   "notes": "官方标注开放获取"
+  },
+  {
+   "canonical_id": "r-5bb42ec1",
+   "raw_name": "全国报刊索引",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1138",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-3ad39a96",
+   "raw_name": "趣悦读少儿数字图书馆",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1178",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-793ba0bd",
+   "raw_name": "Reaxys",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1132",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-b6748654",
+   "raw_name": "人大复印报刊资料数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1107",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-d701ed7c",
+   "raw_name": "人民日报图文数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1196",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-b14d2f33",
+   "raw_name": "日本电子情报通信学会报告",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/14621",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-46f3a0de",
+   "raw_name": "RSC Ebook/英国皇家化学学会电子书",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1084",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-c21d899e",
+   "raw_name": "RSC GOLD/英国皇家化学学会数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1085",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-fa08142a",
+   "raw_name": "SAE Digital Library-Technical Papers/ 美国汽车工程师协会技术论文数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1086",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-2cb48387",
+   "raw_name": "SAGE Deep Backfile/SAGE回溯期刊数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1087",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-6d7aff82",
+   "raw_name": "SAGE Journals online/SAGE现刊数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1088",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-345602af",
+   "raw_name": "Science Citation Index - Expanded (SCIE)",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/23401",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-3857c646",
+   "raw_name": "Scopus",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1069",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-70ed7733",
+   "raw_name": "尚古汇典·典籍整理文献数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/24426",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-736c1391",
+   "raw_name": "尚古汇典·文渊阁四库全书数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/23776",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-2d5202fd",
+   "raw_name": "上海历史文化年谱",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/13059",
+   "scope": "",
+   "access_method": "公网开放获取(OA免费库)",
+   "notes": "官方标注开放获取"
+  },
+  {
+   "canonical_id": "r-d4ac1276",
+   "raw_name": "上海年华",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1214",
+   "scope": "",
+   "access_method": "公网开放获取(OA免费库)",
+   "notes": "官方标注开放获取"
+  },
+  {
+   "canonical_id": "r-f1194c0b",
+   "raw_name": "上海文化总库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/12993",
+   "scope": "",
+   "access_method": "公网开放获取(OA免费库)",
+   "notes": "官方标注开放获取"
+  },
+  {
+   "canonical_id": "r-7b8ce7db",
+   "raw_name": "上图馆藏标准目录",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/2903",
+   "scope": "",
+   "access_method": "公网开放获取(OA免费库)",
+   "notes": "官方标注开放获取"
+  },
+  {
+   "canonical_id": "r-feb08dc6",
+   "raw_name": "上图馆藏家谱目录",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1213",
+   "scope": "",
+   "access_method": "公网开放获取(OA免费库)",
+   "notes": "官方标注开放获取"
+  },
+  {
+   "canonical_id": "r-23b8d325",
+   "raw_name": "少儿多媒体图书馆",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/8645",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-198df561",
+   "raw_name": "申报",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1145",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-6789e780",
+   "raw_name": "书同文古籍数据库/清代档案文献数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1172",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-13e9616d",
+   "raw_name": "书同文古籍数据库/《十通》",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1175",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-3b307aa1",
+   "raw_name": "书同文古籍数据库/《四部丛刊》",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1173",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-94a8c323",
+   "raw_name": "书同文古籍数据库/《四部丛刊》增补版",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1174",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-183ec49d",
+   "raw_name": "书同文古籍数据库/中国历代石刻史料汇编",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1144",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-656f9d2c",
+   "raw_name": "Springer Link电子书",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1089",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-285c21ab",
+   "raw_name": "Springer Link/Springer电子期刊数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1090",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-d0e214ee",
+   "raw_name": "Statista数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/14022",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-5353a569",
+   "raw_name": "Taylor & Francis期刊数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/14518",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-a246d0af",
+   "raw_name": "Ulrich's Web Global Serials Directory/乌利希国际期刊指南",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1189",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-36645bea",
+   "raw_name": "万方全球智库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/4767",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-7765179c",
+   "raw_name": "万方数据知识服务平台 会议论文",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/2189",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-6df84366",
+   "raw_name": "万方数据知识服务平台 旧方志数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/14694",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-bb308787",
+   "raw_name": "万方数据知识服务平台 新方志数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1197",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-40e749a4",
+   "raw_name": "万方数据知识服务平台 学术期刊",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1102",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-fb5132a0",
+   "raw_name": "万方数据知识服务平台 学位论文",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/2188",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-da802c1a",
+   "raw_name": "万方中国法律法规数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/21263",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-130f02ff",
+   "raw_name": "万方中国旧方志全文数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/17447",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-8812b70a",
+   "raw_name": "维普中文科技期刊数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1103",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-fd726c54",
+   "raw_name": "《文渊阁四库全书》电子版",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1143",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-dce40825",
+   "raw_name": "WGSN Access（原Insight）",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/21477",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-2827d437",
+   "raw_name": "WGSN/Fashion",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1146",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-4e7f72a6",
+   "raw_name": "WGSN/Interiors",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/16535",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-3a9838c4",
+   "raw_name": "Wiley E-Textbook电子教材",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1270",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-7311f155",
+   "raw_name": "Wiley Online Library/Wiley电子期刊数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1093",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-c1e2d553",
+   "raw_name": "Wiley电子书及参考工具书",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1092",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-10ea0289",
+   "raw_name": "World Scientific eBooks",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1124",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-dc734d39",
+   "raw_name": "WorldSciNet世界科技期刊数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1094",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-5a89a89a",
+   "raw_name": "新东方多媒体学习库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1104",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-3e6a3066",
+   "raw_name": "新东方多纳智慧魔方",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1169",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-492e22dd",
+   "raw_name": "新东方悦读汇",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1182",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-c65fc7b4",
+   "raw_name": "新东方在线微课堂",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/5621",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-692a42d7",
+   "raw_name": "新东方中小学数字图书馆",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1181",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-ad79b8f3",
+   "raw_name": "雅昌艺术图书数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1179",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-9f72acb3",
+   "raw_name": "一带一路数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1159",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-80948dcf",
+   "raw_name": "易阅通",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1162",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-b4b5fb58",
+   "raw_name": "优质图书资源全民阅读服务平台",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/24730",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-a7ee7b42",
+   "raw_name": "月旦知识库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1105",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-39902447",
+   "raw_name": "云图数字有声图书馆",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/2187",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-bc1c390a",
+   "raw_name": "掌阅精选数字图书馆",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/19068",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-ea4cce6f",
+   "raw_name": "知识视界",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1106",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-ef81ed57",
+   "raw_name": "中国大百科全书",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1168",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-97163398",
+   "raw_name": "中国地方历史文献数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1204",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-18100050",
+   "raw_name": "中国减贫研究数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/9072",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-c3379c27",
+   "raw_name": "中国科技期刊引证指标数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/8583",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-c7cc4ae8",
+   "raw_name": "中国科学文献计量指标数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/8582",
+   "scope": "",
+   "access_method": "",
+   "notes": ""
+  },
+  {
+   "canonical_id": "r-3e1dbc01",
+   "raw_name": "中国科学引文数据库 (CSCD)",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1140",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-3d8abe1c",
+   "raw_name": "中国历史人物传记资源库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1139",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-acb72d24",
+   "raw_name": "中国历史文献总库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/24427",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-3825edb1",
+   "raw_name": "中国社会科学文库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1176",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-8cc18b84",
+   "raw_name": "中国数字方志库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1164",
+   "scope": "",
+   "access_method": "仅馆内访问",
+   "notes": "需到馆"
+  },
+  {
+   "canonical_id": "r-5e3c0b78",
+   "raw_name": "中国资讯行",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1161",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-fad82b9b",
+   "raw_name": "中华古籍书目数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/16507",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-bfb39163",
+   "raw_name": "中华古籍资源库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/15902",
+   "scope": "",
+   "access_method": "公网开放获取(OA免费库)",
+   "notes": "官方标注开放获取"
+  },
+  {
+   "canonical_id": "r-0ab3c1af",
+   "raw_name": "中华经典古籍库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/23440",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-3e5c47ae",
+   "raw_name": "中华医学期刊全文数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/13202",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-ad25843c",
+   "raw_name": "中华再造善本数据库",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1165",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  },
+  {
+   "canonical_id": "r-0a045d74",
+   "raw_name": "中文社会科学引文索引(CSSCI)",
+   "access_url": "https://z.library.sh.cn/next/resource/databases/1110",
+   "scope": "",
+   "access_method": "馆外可访问(需上海图书馆读者证)",
+   "notes": "馆内外均可"
+  }
+ ]
+}
