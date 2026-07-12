@@ -6,3 +6,5 @@ __pycache__/
 .workbuddy/
 tools/resp_*.json
 .trash_capture_dumps/
+tools/shanxi_dump/
+.cdp-collect-profile*/
