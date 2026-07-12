@@ -22,15 +22,17 @@
 - 订阅范围不同（比如一个馆买了全库、一个馆只有部分）→ **拆成不同**的资源条目。
 - 这个判断在「归一化」这一步统一做（见 `采集指南.md`），采集时先照抄原名即可。
 
+## 在线访问
+👉 **https://ray-bot-ai.github.io/cn-lib-resources/**
+
 ## 怎么生成/更新网页
 ```bash
-# 首次：装 uv（若没有）后建环境
-uv venv
-# 每次改完数据，重新生成网页：
-uv run build_site.py
-# 然后双击打开 site/index.html
+# 每次改完数据，重新生成网页（只用标准库，无需装包）：
+python3 build_site.py
+# 产物在 docs/index.html —— 可本地双击打开，也是 GitHub Pages 发布目录
+# 提交并推送后，在线站点会自动更新
+git add -A && git commit -m "更新数据" && git push
 ```
-（`build_site.py` 只用标准库，不需要装第三方包。）
 
 ## 采集进度
 见 `采集指南.md` 里的省份清单勾选表。**所有 `"verified": false` 的字段都还没核实**，不要当成事实。
