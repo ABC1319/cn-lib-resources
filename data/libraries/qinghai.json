@@ -8,13 +8,12 @@
  "official_site": "http://qhslib.org.cn/",
  "digital_resource_url": "http://qhslib.org.cn/#/resources",
  "registration": {
-  "online": "yes",
-  "eligibility": "仅线上注册",
+  "online": "no",
+  "eligibility": "",
   "cost": "",
   "how": "官网线上注册。注册教程：http://qhslib.org.cn/#/guideDel",
   "tutorial_url": "http://qhslib.org.cn/#/guideDel",
-  "notes": "人工核对。仅线上注册。",
-  "online_scope": "open"
+  "notes": "人工核对。仅线上注册。 官网线上自助注册入口存疑，暂按需线下办理（待核实）。"
  },
  "resources": [
   {
