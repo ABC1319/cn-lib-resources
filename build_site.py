@@ -56,86 +56,142 @@ TEMPLATE = r"""<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>公立图书馆免费电子资源清单 · Free E-Resources of Chinese Public Libraries</title>
 <style>
-  :root { --bg:#fafaf8; --card:#fff; --line:#e6e3dc; --ink:#222; --muted:#777; --accent:#7a5c3e; --soft:#f3f0ea; }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg:#1b1a18; --card:#26241f; --line:#3a3730; --ink:#eee; --muted:#a29a8c; --accent:#c8a878; --soft:#211f1b; }
+  :root{
+    --bg:#f4efe3; --paper:#faf6ec; --ink:#2a251f; --sub:#8b8070; --faint:#a99f8c;
+    --line:#e2d9c7; --hair:#d3c9b4; --seal:#9d2b23; --sage:#556b4d; --brick:#98452f; --gold:#8a5f22;
+    --serif:'Hoefler Text','Baskerville','Songti SC','STSong','Source Han Serif SC','Noto Serif SC',serif;
+    --sans:-apple-system,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;
   }
-  * { box-sizing:border-box; }
-  body { margin:0; font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
-         background:var(--bg); color:var(--ink); line-height:1.6; }
-  header { position:sticky; top:0; background:var(--bg); border-bottom:1px solid var(--line);
-           padding:12px 18px; z-index:10; }
-  h1 { font-size:19px; margin:0 0 4px; }
-  .stat { color:var(--muted); font-size:13px; margin-bottom:9px; }
-  .controls { display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
-  .toggle button { border:1px solid var(--line); background:var(--card); color:var(--ink);
-    padding:6px 14px; cursor:pointer; font-size:14px; }
-  .toggle button:first-child { border-radius:6px 0 0 6px; }
-  .toggle button:last-child { border-radius:0 6px 6px 0; border-left:none; }
-  .toggle button.on { background:var(--accent); color:#fff; border-color:var(--accent); }
-  #q { flex:1; min-width:180px; padding:7px 10px; border:1px solid var(--line);
-       border-radius:6px; background:var(--card); color:var(--ink); font-size:14px; }
-  main { max-width:920px; margin:0 auto; padding:18px; }
-  .notice { background:var(--soft); border:1px solid var(--line); border-radius:10px;
-            padding:12px 16px; margin-bottom:16px; font-size:13.5px; color:var(--ink); }
-  .notice summary { cursor:pointer; font-weight:600; color:var(--accent); }
-  .notice p { margin:8px 0 4px; color:var(--muted); line-height:1.7; }
-  .legend { font-size:12.5px; color:var(--muted); margin-top:8px; }
-  .card { background:var(--card); border:1px solid var(--line); border-radius:10px;
-          padding:14px 16px; margin-bottom:14px; }
-  .card h2 { font-size:16px; margin:0 0 6px; display:flex; align-items:center; flex-wrap:wrap; gap:6px; }
-  .meta { color:var(--muted); font-size:13px; margin-bottom:8px; }
-  .badge { display:inline-block; font-size:12px; padding:1px 9px; border-radius:20px;
-           border:1px solid var(--line); vertical-align:middle; white-space:nowrap; }
-  .b-yes { background:#e7f3e7; color:#2e7d32; border-color:#bfe0bf; }
-  .b-no  { background:#fbeaea; color:#c0392b; border-color:#eec4c4; }
-  .b-partial { background:#fdf3e2; color:#b9770e; border-color:#eeddb8; }
-  .b-local { background:#fdeede; color:#a85b1a; border-color:#eccfa6; font-weight:600; }
-  .b-unknown { background:transparent; color:var(--muted); border-style:dashed; }
-  .b-unverified { background:transparent; color:var(--muted); border-style:dashed; }
-  @media (prefers-color-scheme: dark) {
-    .b-yes{background:#22331f;color:#8bc98b;border-color:#3c5b37;}
-    .b-no{background:#331f1f;color:#e08b8b;border-color:#5b3737;}
-    .b-partial{background:#332a1a;color:#d8b06a;border-color:#5b4a2f;}
-    .b-local{background:#3a2c19;color:#e0a35c;border-color:#5f4526;}
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#191510; --paper:#201b15; --ink:#ece3d3; --sub:#9a8f7b; --faint:#6d6250;
+      --line:#332c22; --hair:#3f382c; --seal:#cf7061; --sage:#93ac84; --brick:#c98a72; --gold:#c3a161; }
   }
-  .regbox { background:var(--soft); border:1px solid var(--line); border-radius:8px;
-            padding:8px 12px; margin:2px 0 10px; font-size:13px; }
-  .regbox b { color:var(--ink); }
-  ul.rows { list-style:none; margin:6px 0 0; padding:0; }
-  ul.rows li { border-top:1px dashed var(--line); padding:9px 0; }
-  ul.rows li:first-child { border-top:none; }
-  .libname { font-weight:600; }
-  .sub { color:var(--muted); font-size:12.5px; }
-  a { color:var(--accent); }
-  .empty { color:var(--muted); font-style:italic; }
-  .count { color:var(--muted); font-size:12.5px; font-weight:normal; }
-  .cav { color:#c0392b; cursor:help; font-size:10.5px; margin-left:1px; }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans);
+    line-height:1.65; -webkit-font-smoothing:antialiased;
+    background-image:radial-gradient(120% 80% at 50% -10%, rgba(157,43,35,.035), transparent 60%);}
+  a{color:var(--seal); text-decoration:none;}
+  a:hover{text-decoration:underline; text-underline-offset:2px;}
+
+  /* 报头 */
+  .masthead{max-width:820px; margin:0 auto; padding:46px 22px 6px; text-align:center;}
+  .kicker{font-size:11.5px; letter-spacing:.42em; color:var(--seal); text-transform:none; margin-bottom:14px; padding-left:.42em;}
+  .masthead h1{font-family:var(--serif); font-weight:600; font-size:33px; letter-spacing:.05em; margin:0; color:var(--ink);}
+  .masthead .en{font-family:var(--serif); font-style:italic; font-size:15px; color:var(--sub); margin-top:7px; letter-spacing:.02em;}
+  .rule{display:flex; align-items:center; justify-content:center; gap:12px; margin:16px 0 8px;}
+  .rule::before,.rule::after{content:""; height:1px; width:64px; background:var(--hair);}
+  .rule i{width:5px; height:5px; background:var(--seal); transform:rotate(45deg); display:inline-block;}
+  .stat{font-family:var(--serif); font-size:13px; color:var(--sub); letter-spacing:.03em;}
+
+  /* 控制条（粘顶） */
+  .bar{position:sticky; top:0; z-index:20; background:color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter:blur(8px); border-bottom:1px solid var(--hair); }
+  .bar-in{max-width:820px; margin:0 auto; padding:9px 22px; display:flex; align-items:center; gap:20px; flex-wrap:wrap;}
+  .tabs{display:flex; gap:22px;}
+  .tabs button{background:none; border:none; cursor:pointer; font-family:var(--serif); font-size:16px;
+    color:var(--sub); padding:5px 1px; position:relative; letter-spacing:.06em;}
+  .tabs button.on{color:var(--ink);}
+  .tabs button.on::after{content:""; position:absolute; left:0; right:0; bottom:-1px; height:2px; background:var(--seal);}
+  #q{flex:1; min-width:150px; border:none; border-bottom:1px solid var(--hair); background:transparent;
+    color:var(--ink); font-family:var(--sans); font-size:14px; padding:5px 2px;}
+  #q::placeholder{color:var(--faint);}
+  #q:focus{outline:none; border-bottom-color:var(--seal);}
+  .letterbar{width:100%; display:flex; flex-wrap:wrap; gap:3px 13px; padding-top:2px;}
+  .letterbar a{font-family:var(--serif); font-size:12.5px; color:var(--sub); letter-spacing:.06em;}
+  .letterbar a:hover{color:var(--seal); text-decoration:none;}
+
+  main{max-width:820px; margin:0 auto; padding:20px 22px 80px; animation:rise .5s ease both;}
+  @keyframes rise{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+  /* 凡例 / 说明 */
+  .notice{border:1px solid var(--hair); background:var(--paper); border-radius:2px; padding:16px 20px; margin-bottom:26px;}
+  .notice>summary{cursor:pointer; font-family:var(--serif); font-size:15px; color:var(--ink); letter-spacing:.05em; list-style:none;}
+  .notice>summary::-webkit-details-marker{display:none;}
+  .notice>summary::before{content:"凡例 "; color:var(--seal);}
+  .notice p{margin:12px 0 4px; color:var(--sub); font-size:13.5px; line-height:1.85;}
+  .notice p[lang=en]{font-family:var(--serif); font-style:normal;}
+  .notice b{color:var(--ink); font-weight:600;}
+  .legend{font-size:12.5px; color:var(--sub); margin-top:10px; padding-top:10px; border-top:1px solid var(--line); line-height:2.1;}
+  .legend b{color:var(--ink);}
+
+  /* 首字母分节 */
+  .sec{display:flex; align-items:center; gap:16px; margin:30px 0 4px; scroll-margin-top:96px;}
+  .sec:first-of-type{margin-top:6px;}
+  .sec b{font-family:var(--serif); font-size:25px; color:var(--seal); line-height:1; min-width:20px;}
+  .sec .ln{flex:1; height:1px; background:var(--hair);}
+
+  /* 条目 */
+  .entry{padding:15px 0; border-bottom:1px solid var(--line);}
+  .entry .name{font-family:var(--serif); font-size:17px; color:var(--ink); letter-spacing:.01em;}
+  .entry .cnt{font-family:var(--serif); font-size:12.5px; color:var(--faint); margin-left:8px;}
+  .entry .meta{font-size:12.5px; color:var(--sub); margin-top:2px;}
+  .holder{margin-top:10px; padding-left:15px; border-left:2px solid var(--hair);}
+  .holder+.holder{margin-top:12px;}
+  .holder .lib{font-family:var(--serif); font-size:14.5px; color:var(--ink); margin-right:8px;}
+  .holder .links{font-size:12px; color:var(--sub); margin-top:3px;}
+  .holder .links a{color:var(--sub);} .holder .links a:hover{color:var(--seal);}
+  .sep{color:var(--faint); margin:0 8px;}
+
+  /* 图书馆视图 */
+  .regbox{margin:9px 0 14px; padding:2px 0 2px 16px; border-left:2px solid var(--seal); font-size:13px; color:var(--sub); line-height:1.8;}
+  .regbox b{color:var(--ink);}
+  .rlist{margin:6px 0 0; padding:0; list-style:none;}
+  .rlist li{padding:8px 0; border-top:1px solid var(--line); font-size:14px; color:var(--ink); display:flex; flex-wrap:wrap; align-items:baseline; gap:8px;}
+  .rlist li:first-child{border-top:none;}
+  .rlist .rn{font-family:var(--serif);}
+
+  /* 标签 */
+  .tag{display:inline-block; font-family:var(--sans); font-size:11px; line-height:1.6; padding:0 7px;
+    border:1px solid; border-radius:2px; letter-spacing:.02em; white-space:nowrap; vertical-align:middle;}
+  .t-yes{color:var(--sage); border-color:color-mix(in srgb,var(--sage) 40%,var(--line)); background:color-mix(in srgb,var(--sage) 8%,transparent);}
+  .t-no{color:var(--brick); border-color:color-mix(in srgb,var(--brick) 40%,var(--line)); background:color-mix(in srgb,var(--brick) 8%,transparent);}
+  .t-local{color:var(--gold); border-color:color-mix(in srgb,var(--gold) 42%,var(--line)); background:color-mix(in srgb,var(--gold) 9%,transparent); font-weight:600;}
+  .t-warn{color:var(--gold); border-color:color-mix(in srgb,var(--gold) 40%,var(--line)); background:transparent;}
+  .t-mut{color:var(--faint); border-color:var(--hair); border-style:dashed; background:transparent;}
+  .cav{color:var(--seal); cursor:help; font-size:10px; margin-left:2px; font-family:var(--sans);}
+  .empty{color:var(--faint); font-style:italic;}
+  .none{color:var(--sub); font-family:var(--serif); text-align:center; padding:60px 0;}
+
+  @media (max-width:560px){
+    .masthead{padding-top:34px;} .masthead h1{font-size:26px;}
+    .sec{scroll-margin-top:130px;}
+  }
 </style>
 </head>
 <body>
-<header>
+<header class="masthead">
+  <div class="kicker">公共图书馆 · 数字资源索引</div>
   <h1>公立图书馆免费电子资源清单</h1>
-  <div class="subtitle" style="font-size:13px;color:var(--muted);margin:-2px 0 6px">Free Digital Resources of Chinese Public Libraries</div>
+  <div class="en">Free Digital Resources of Chinese Public Libraries</div>
+  <div class="rule"><i></i></div>
   <div class="stat" id="stat"></div>
-  <div class="controls">
-    <span class="toggle">
-      <button id="btn-res" class="on" onclick="setView('res')">按资源找</button>
-      <button id="btn-lib" onclick="setView('lib')">按图书馆找</button>
-    </span>
-    <input id="q" placeholder="搜索资源名 / 图书馆名…" oninput="render()">
-  </div>
 </header>
+
+<div class="bar">
+  <div class="bar-in">
+    <nav class="tabs">
+      <button id="btn-res" class="on" onclick="setView('res')">按资源</button>
+      <button id="btn-lib" onclick="setView('lib')">按图书馆</button>
+    </nav>
+    <input id="q" placeholder="检索 · 资源名或图书馆名…" oninput="render()">
+    <div class="letterbar" id="letterbar"></div>
+  </div>
+</div>
+
 <main>
   <details class="notice" open>
-    <summary>关于本站 · 使用说明 / About &amp; How to use</summary>
+    <summary>· 使用说明 / About &amp; How to use</summary>
     <p>本站整理国家图书馆及各省、直辖市、自治区图书馆 <b>能否线上注册读者证</b>、<b>注册指南链接</b>、<b>有哪些数字资源</b>、<b>各个数字资源能否远程访问</b>（这一点受资源限制，目前只标明了从数字资源页可直接看到能否远程访问的），数据均来自网络公开信息（主要是图书馆官网，不过，官网有时信息更新不及时，如果您对某图书馆很感兴趣，可再检索确认一下）。本站支持检索，以及按资源、图书馆分类访问。亦可于笔者 github 直接下载原数据。截至 2026 年 7 月 13 日经笔者人工全量核对。<b>少数图书馆线上注册读者证者的可用权限少于线下办理实体读者证者，请自行确认（如国家图书馆，其远程访问已相应标注）。</b><b>如有建议请邮件 <a href="mailto:u3642567@connect.hku.hk">u3642567@connect.hku.hk</a>。</b></p>
     <p lang="en">This site compiles, for the National Library of China and the public libraries of every province, municipality and autonomous region: whether a reader's card can be <b>registered online</b>, links to the <b>registration guides</b>, <b>which digital resources</b> each library offers, and whether each resource can be <b>accessed remotely</b> (marked only where the library's resource page states it directly). Data comes from publicly available sources (mainly the libraries' official websites, which are sometimes out of date — if you are especially interested in a library, please double-check with a fresh search). <b>Note for readers outside mainland China: most online resources listed here require a mainland-China platform account, and many require a mainland-China IP address, to open.</b> At a few libraries an online-registered card grants fewer privileges than a physical card obtained in person — please verify (e.g. the National Library of China; its remote-access entries are marked accordingly). You can search and browse by resource or by library; raw data is downloadable from the author's GitHub. Fully hand-verified as of 13 July 2026. Suggestions welcome — email <a href="mailto:u3642567@connect.hku.hk">u3642567@connect.hku.hk</a>.</p>
     <div class="legend">
-      <b>注册 / Registration：</b>
-      <span class="badge b-yes">可线上注册</span>（不限身份 open）/ <span class="badge b-local">仅本地居民线上注册</span>（local residents only）/ <span class="badge b-partial">部分可线上</span> / <span class="badge b-no">仅线下办证</span>（on-site only）
-      <b>远程 / Remote：</b>
-      <span class="badge b-yes">可远程访问</span>（off-site OK）/ <span class="badge b-no">仅馆内访问</span>（in-library）/ <span class="badge b-unknown">远程未标注</span>（not stated）
+      <b>注册 Registration</b>　<span class="tag t-yes">可线上注册</span> 不限身份 ·
+      <span class="tag t-local">仅本地居民线上注册</span> local only ·
+      <span class="tag t-warn">需线下激活/部分</span> ·
+      <span class="tag t-no">仅线下办证</span> on-site<br>
+      <b>远程 Remote</b>　<span class="tag t-yes">可远程访问</span> off-site ·
+      <span class="tag t-no">仅馆内访问</span> in-library ·
+      <span class="tag t-mut">远程未标注</span> not stated
     </div>
   </details>
   <div id="app"></div>
@@ -144,62 +200,81 @@ TEMPLATE = r"""<!doctype html>
 <script>
 const DATA = /*__DATA__*/;
 let view = 'res';
+const app = document.getElementById('app');
 
-function esc(s){ return (s==null?'':String(s)).replace(/[&<>]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+function esc(s){ return (s==null?'':String(s)).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 function link(url, text){ return url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text||url)}</a>` : `<span class="empty">${esc(text||'—')}</span>`; }
 
-// 能否线上注册（图书馆维度）；yes 再分 open(未注明身份限制) / local(仅本地居民)
+/* ——— 拼音首字母 & 排序 ——— */
+const collator = new Intl.Collator('zh-Hans-CN');
+const ANCH=[['A','阿'],['B','八'],['C','嚓'],['D','哒'],['E','妸'],['F','发'],['G','旮'],['H','哈'],['J','击'],['K','咔'],['L','垃'],['M','痳'],['N','拿'],['O','噢'],['P','啪'],['Q','期'],['R','然'],['S','撒'],['T','塌'],['W','挖'],['X','夕'],['Y','压'],['Z','匝']];
+const INIT_OVERRIDE = {'重庆图书馆':'C'};
+function cleanKey(s){ return (s||'').replace(/^[\s"'`《》〈〉「」『』【】\[\]（）()·・—\-\.。、,，:：;；*※〔〕]+/,'').trim(); }
+function initialOf(s, name){
+  if(name && INIT_OVERRIDE[name]) return INIT_OVERRIDE[name];
+  const k=cleanKey(s); if(!k) return '#';
+  const c=k[0];
+  if(/[A-Za-z]/.test(c)) return c.toUpperCase();
+  if(/[0-9]/.test(c)) return '#';
+  if(collator.compare(c,'阿')<0) return '#';
+  let L='Z';
+  for(const [l,a] of ANCH){ if(collator.compare(c,a)>=0) L=l; else break; }
+  return L;
+}
+function byName(a,b){ return collator.compare(cleanKey(a),cleanKey(b)); }
+const LORDER='#ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+// 先按首字母档、再按名称——保证分节连续且字母升序（与 initialOf 分桶一致）
+function cmpInit(nameA,nameB,la,lb){
+  const ia=LORDER.indexOf(initialOf(nameA,la)), ib=LORDER.indexOf(initialOf(nameB,lb));
+  return (ia-ib) || collator.compare(cleanKey(nameA),cleanKey(nameB));
+}
+
+/* ——— 徽标 ——— */
 function onlineBadge(reg){
   const o=reg&&reg.online;
   if(reg&&reg.online_label){
-    return `<span class="badge ${reg.online_label_class||'b-partial'}">${esc(reg.online_label)}</span>`;
+    const cls={'b-partial':'t-warn','b-unknown':'t-mut','b-local':'t-local','b-yes':'t-yes','b-no':'t-no'}[reg.online_label_class]||'t-warn';
+    return `<span class="tag ${cls}">${esc(reg.online_label)}</span>`;
   }
-  if(o==='yes'){
-    return reg.online_scope==='local'
-      ? '<span class="badge b-local">仅本地居民线上注册</span>'
-      : '<span class="badge b-yes">可线上注册</span>';
-  }
-  const map={partial:['部分可线上','b-partial'],no:['仅线下办证','b-no']};
-  const [t,c]=map[o]||['注册方式未核实','b-unknown'];
-  return `<span class="badge ${c}">${t}</span>`;
+  if(o==='yes') return reg.online_scope==='local'
+    ? '<span class="tag t-local">仅本地居民线上注册</span>'
+    : '<span class="tag t-yes">可线上注册</span>';
+  const map={partial:['部分可线上','t-warn'],no:['仅线下办证','t-no']};
+  const [t,c]=map[o]||['注册方式待核','t-mut'];
+  return `<span class="tag ${c}">${t}</span>`;
 }
-// 能否远程访问（资源维度，从 access_method 判断）→ 收敛为三态，原始值放 title 供悬停
 function remoteBadge(am){
   let t,c,title='';
-  if(!am){ t='远程未标注'; c='b-unknown'; }
-  else if(/馆外|远程|公网|OA|开放获取|开放存取|存取/.test(am)){ t='可远程访问'; c='b-yes'; }
-  else if(/馆内|到馆|触摸屏|现场|自助机/.test(am)){ t='仅馆内访问'; c='b-no'; }
-  else { t='远程未标注'; c='b-unknown'; title=am; }
-  return `<span class="badge ${c}"${title?` title="${esc(title)}"`:''}>${t}</span>`;
+  if(!am){ t='远程未标注'; c='t-mut'; }
+  else if(/馆外|远程|公网|OA|开放获取|开放存取|存取/.test(am)){ t='可远程访问'; c='t-yes'; }
+  else if(/馆内|到馆|触摸屏|现场|自助机/.test(am)){ t='仅馆内访问'; c='t-no'; }
+  else { t='远程未标注'; c='t-mut'; title=am; }
+  return `<span class="tag ${c}"${title?` title="${esc(title)}"`:''}>${t}</span>`;
 }
 function isRemote(am){ return !!(am && /馆外|远程|公网|OA|开放获取|开放存取|存取/.test(am)); }
-// 远程徽标 + （若该馆线上证远程权限受限）星号提示
 function remoteCell(am, reg){
   let s=remoteBadge(am);
   if(reg && reg.remote_caveat && isRemote(am))
     s+=` <sup class="cav" title="${esc(reg.remote_caveat)}">*线上证权限或受限</sup>`;
   return s;
 }
-function unverified(lib){ return lib.verified===false ? '<span class="badge b-unverified">待核实</span>' : ''; }
+function unverified(lib){ return lib.verified===false ? '<span class="tag t-mut">待核实</span>' : ''; }
 function regLine(lib){
-  const reg=lib.registration||{};
-  const bits=[];
+  const reg=lib.registration||{}; const bits=[];
   if(reg.eligibility) bits.push('可注册：'+esc(reg.eligibility));
   if(reg.cost) bits.push(esc(reg.cost));
-  let s = bits.length? bits.join('；')+'。 ':'';
-  if(reg.how) s += esc(reg.how);
+  let s=bits.length? bits.join('；')+'。 ':'';
+  if(reg.how) s+=esc(reg.how);
   return s;
 }
 
-// 反转：canonical_id -> [{library, holding}]
 function holdingsByResource(){
   const idx={};
-  for(const lib of DATA.libraries){
+  for(const lib of DATA.libraries)
     for(const h of (lib.resources||[])){
       const id=h.canonical_id||('__raw__'+(h.raw_name||''));
       (idx[id]=idx[id]||[]).push({lib,h});
     }
-  }
   return idx;
 }
 
@@ -210,77 +285,81 @@ function setView(v){
   render();
 }
 
-// —— 按资源：每个馆旁边直接给「能否线上注册 + 能否远程访问」两枚徽标 ——
 function renderByResource(kw){
   const idx=holdingsByResource();
-  const ids=Object.keys(idx).sort((a,b)=>{
-    const na=(DATA.resources[a]||{}).name||a, nb=(DATA.resources[b]||{}).name||b;
-    return na.localeCompare(nb,'zh');
-  });
-  let out='';
-  for(const id of ids){
+  let items=Object.keys(idx).map(id=>{
     const r=DATA.resources[id]||{name:(id.startsWith('__raw__')?id.slice(7):id), _unmatched:true};
-    const holders=idx[id].slice().sort((x,y)=>(x.lib.region||'').localeCompare(y.lib.region||'','zh'));
+    return {id, r, holders:idx[id]};
+  });
+  items.sort((a,b)=>cmpInit(a.r.name,b.r.name));
+  let out='', cur='', letters=[];
+  for(const {r,holders} of items){
     const hay=(r.name+' '+(r.aliases||[]).join(' ')+' '+holders.map(x=>x.lib.name).join(' ')).toLowerCase();
     if(kw && !hay.includes(kw)) continue;
-    out+=`<div class="card"><h2>${esc(r.name)} <span class="count">· ${holders.length} 馆</span></h2>`;
+    const L=initialOf(r.name);
+    if(L!==cur){ cur=L; letters.push(L); out+=`<div class="sec" id="sec-${L}"><b>${L}</b><span class="ln"></span></div>`; }
+    out+=`<div class="entry"><span class="name">${esc(r.name)}</span><span class="cnt">${holders.length} 馆</span>`;
     const m=[]; if(r.vendor)m.push(esc(r.vendor)); if(r.category)m.push(esc(r.category));
     if(m.length||r.homepage) out+=`<div class="meta">${m.join(' · ')}${r.homepage?'　'+link(r.homepage,'资源官网'):''}</div>`;
-    out+='<ul class="rows">';
-    for(const {lib,h} of holders){
+    const hs=holders.slice().sort((x,y)=>cmpInit(x.lib.name,y.lib.name,x.lib.name,y.lib.name));
+    for(const {lib,h} of hs){
       const reg=lib.registration||{};
-      out+=`<li><span class="libname">${esc(lib.name)}</span> ${onlineBadge(reg)} ${remoteCell(h.access_method,reg)} ${unverified(lib)}`;
-      if(h.scope) out+=` <span class="sub">（${esc(h.scope)}）</span>`;
-      out+=`<div class="sub">`;
-      const parts=[];
-      parts.push('办证：'+(reg.tutorial_url?link(reg.tutorial_url,'注册指南↗'):'<span class="empty">—</span>'));
-      parts.push('资源入口：'+(h.access_url?link(h.access_url,'打开↗'):'<span class="empty">见数字资源页</span>'));
-      parts.push('数字资源页：'+link(lib.digital_resource_url,'↗'));
-      out+=parts.join('　·　');
-      out+=`</div></li>`;
+      out+=`<div class="holder"><span class="lib">${esc(lib.name)}</span> ${onlineBadge(reg)} ${remoteCell(h.access_method,reg)} ${unverified(lib)}`;
+      if(h.scope) out+=` <span class="empty">（${esc(h.scope)}）</span>`;
+      out+=`<div class="links">办证 ${reg.tutorial_url?link(reg.tutorial_url,'注册指南↗'):'<span class="empty">—</span>'}<span class="sep">·</span>资源 ${h.access_url?link(h.access_url,'打开↗'):'<span class="empty">见数字资源页</span>'}<span class="sep">·</span>数字资源页 ${link(lib.digital_resource_url,'↗')}</div></div>`;
     }
-    out+='</ul></div>';
+    out+='</div>';
   }
-  return out||'<p class="empty">没有匹配的资源。</p>';
+  return {html: out||'<div class="none">未见匹配的资源。</div>', letters};
 }
 
-// —— 按图书馆：突出「能否线上注册」+ 办证要求方框 + 每条资源的远程徽标 ——
 function renderByLibrary(kw){
-  const libs=[...DATA.libraries].sort((a,b)=>(a.region||'').localeCompare(b.region||'','zh'));
-  let out='';
+  let libs=[...DATA.libraries].sort((a,b)=>cmpInit(a.name,b.name,a.name,b.name));
+  let out='', cur='', letters=[];
   for(const lib of libs){
     const hay=(lib.name+' '+(lib.region||'')+' '+(lib.resources||[]).map(h=>h.raw_name||'').join(' ')).toLowerCase();
     if(kw && !hay.includes(kw)) continue;
-    const reg=lib.registration||{};
-    const rs=lib.resources||[];
-    out+=`<div class="card"><h2>${esc(lib.name)} ${onlineBadge(reg)} ${unverified(lib)} <span class="count">· ${rs.length} 个资源</span></h2>`;
+    const L=initialOf(lib.name, lib.name);
+    if(L!==cur){ cur=L; letters.push(L); out+=`<div class="sec" id="sec-${L}"><b>${L}</b><span class="ln"></span></div>`; }
+    const reg=lib.registration||{}; const rs=lib.resources||[];
+    out+=`<div class="entry"><span class="name">${esc(lib.name)}</span> ${onlineBadge(reg)} ${unverified(lib)}<span class="cnt">${rs.length} 个资源</span>`;
     out+=`<div class="regbox"><b>办证：</b>${regLine(lib)||'<span class="empty">待核实</span>'}`;
-    if(reg.remote_caveat) out+=`<div class="sub" style="color:#c0392b;margin-top:4px">⚠ ${esc(reg.remote_caveat)}</div>`;
-    out+=`<div class="sub" style="margin-top:5px">`;
-    out+=`${link(reg.tutorial_url,'注册指南↗')}　·　官网：${link(lib.official_site,'↗')}　·　数字资源页：${link(lib.digital_resource_url,'↗')}`;
-    out+=`</div></div>`;
-    out+='<ul class="rows">';
-    if(!rs.length){ out+='<li class="empty">资源清单待采集</li>'; }
-    for(const h of rs){
+    if(reg.remote_caveat) out+=`<div style="color:var(--seal);margin-top:4px">⚠ ${esc(reg.remote_caveat)}</div>`;
+    out+=`<div style="margin-top:5px">${reg.tutorial_url?link(reg.tutorial_url,'注册指南↗'):''}<span class="sep">·</span>官网 ${link(lib.official_site,'↗')}<span class="sep">·</span>数字资源页 ${link(lib.digital_resource_url,'↗')}</div></div>`;
+    out+='<ul class="rlist">';
+    if(!rs.length) out+='<li class="empty">资源清单待采集</li>';
+    const rsorted=rs.slice().sort((x,y)=>{
+      const nx=(DATA.resources[x.canonical_id]||{}).name||x.raw_name||'';
+      const ny=(DATA.resources[y.canonical_id]||{}).name||y.raw_name||'';
+      return cmpInit(nx,ny);
+    });
+    for(const h of rsorted){
       const r=DATA.resources[h.canonical_id]||{};
       const name=r.name||h.raw_name||h.canonical_id;
-      out+=`<li>${esc(name)} ${remoteCell(h.access_method,reg)}`;
-      if(h.scope) out+=` <span class="sub">（${esc(h.scope)}）</span>`;
-      if(h.access_url) out+=` <span class="sub">${link(h.access_url,'打开↗')}</span>`;
+      out+=`<li><span class="rn">${esc(name)}</span> ${remoteCell(h.access_method,reg)}`;
+      if(h.scope) out+=` <span class="empty">（${esc(h.scope)}）</span>`;
+      if(h.access_url) out+=` ${link(h.access_url,'打开↗')}`;
       out+='</li>';
     }
     out+='</ul></div>';
   }
-  return out||'<p class="empty">没有匹配的图书馆。</p>';
+  return {html: out||'<div class="none">未见匹配的图书馆。</div>', letters};
+}
+
+function buildLetterBar(letters){
+  const bar=document.getElementById('letterbar');
+  if(!letters.length){ bar.innerHTML=''; return; }
+  bar.innerHTML=letters.map(L=>`<a href="#sec-${L}">${L}</a>`).join('');
 }
 
 function render(){
   const kw=(document.getElementById('q').value||'').trim().toLowerCase();
-  document.getElementById('app').innerHTML =
-    view==='res' ? renderByResource(kw) : renderByLibrary(kw);
+  const {html, letters}= view==='res' ? renderByResource(kw) : renderByLibrary(kw);
+  app.innerHTML=html;
+  buildLetterBar(letters);
 }
 document.getElementById('stat').textContent =
-  `共 ${DATA.libraries.length} 个图书馆 · ${Object.keys(DATA.resources).length} 种数字资源`;
+  `收录 ${DATA.libraries.length} 馆 · ${Object.keys(DATA.resources).length} 种数字资源`;
 render();
 </script>
 </body>
