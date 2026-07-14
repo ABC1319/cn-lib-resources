@@ -445,6 +445,9 @@ document.getElementById('stat').textContent =
   `收录 ${DATA.libraries.length} 馆 · ${Object.keys(DATA.resources).length} 种数字资源`;
 render();
 </script>
+<!-- 访问统计 51.la -->
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"3QYeOW55sMDSg5Pa",ck:"3QYeOW55sMDSg5Pa"})</script>
 </body>
 </html>
 """
